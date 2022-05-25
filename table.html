@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Table Layouts</title>
+
+</head>
+<style>
+    /*Giving my table some style with CSS*/
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid;
+    
+    
+}
+th {
+    background-color:rgb(58, 126, 204);
+    color: white;
+    padding:5px;
+    border: 1px ;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+
+}
+td {
+    background-color: rgb(187, 187, 187);
+    border: 1px ;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+</style>
+
+
+<body>
+    <h1>Basic Table Layouts</h1>
+    
+    <p>Columns Run Vertically</p>
+    <br>
+    <p>Rows Run Horizontally</p>
+    <br><br>
+    <h4>TABLE:</h4>
+    <table> <!--TABLE TAG-->
+        <tr> <!--TABLE ROW #1-->
+            
+            <th></th> <!--table headings-->
+            <th scope="col">Column Heading #1</th> <!--TABLE HEADING + scope= "column" points the heading to the column-->
+            <th scope="col">Column Heading #2</th>
+        </tr><!--END OF ROW #1 -->
+
+        <tr> <!--TABLE ROW #2-->
+            <th scope="row">Row Heading #1</th> <!--TABLE HEADING + scope="row" points the heading to the first column in TABLE ROW #2-->
+            <td>data #1</td> <!--TABLE DATA (this data is located in the second row and in the second column)-->   
+            <td>data #2</td> 
+        </tr><!--END OF ROW #2-->
+
+
+    </table>
+
+</body>
+</html>
