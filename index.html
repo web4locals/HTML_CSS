@@ -6,16 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Layout of a Website</title>
 </head>
-<body>
+<style>
+/* HERE I CAN ADD CSS INTO HTML IF I WANT TO*/
 
-<navbar></navbar>
-    
+/* RESET Browser Default */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background-color: black;
+    color: white;
+
+}
+
+a:link {
+color: aqua;
+}
+</style>
+<body>
+    <header> <!--TOP OF THE PAGE INSIDE THE BODY-->
+       <!--NAVBAR-->
+        <nav>
+            <div class="container">
+               
+                <h1 class="#"><a href="#">#logo#</a> Basic Layout of a Webpage</h1>
+            <ul>
+                <li><a href="#">Home</a>
+                    <a href="#">Page1</a>
+                    <a href="#">Page2</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <!--NAVBAR END-->
+    </header>
+ <section> <!--Helps you identity sections of your page-->
+<div><!--Helps you divide or separate parts of the page -->   
 <h1>Largest</h1>
 <h2>Large</h2>
 <h3>Medium</h3>
 <h4>Small</h4>
 <p>Paragraph</p>
-
+</div>
+</section> 
+    
+<!--FOOTER-->
+<footer>
+<p>THE FOOTER IS ALWAYS ON THE BOTTOM OF THE PAGE</p>
+</footer>
     
 </body>
 </html>
