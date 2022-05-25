@@ -14,8 +14,8 @@
 
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /*padding: 0;*/
+    box-sizing:border-box;
 }
 
 /* Main Styling */
@@ -23,9 +23,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
     background-color: black;
-    color: white;
-    max-width: 100%;
-    text-align: left;
+    color: white;    
 }
 
 a:link {
@@ -54,7 +52,7 @@ li {
         <!--NAVBAR END-->
     </header>
  <section> <!--Helps you identity sections of your page-->
-<div><!--helps define a division or a section in an HTML document. -->   
+<div id="Headings" class="CSS group"><!--helps define a division or a section in an HTML document. -->   
     <h1>This is heading 1</h1>
     <h2>This is heading 2</h2>
     <h3>This is heading 3</h3>
@@ -70,11 +68,19 @@ li {
         <li>three</li>
     </ol>
     <ul> <!--this is an unordered list -->
-        <li>dot</li>
+        <li>dot
+            <ul>
+                <li>Nesting</li>
+            </ul>
+        </li>
         <li>dot</li>
         <li>dot</li>
     </ul>
 </div>
+</section id="aTAGLinks">
+<a href="#">Link Text</a>
+<section>
+
 </section> 
     
 <!--FOOTER-->
