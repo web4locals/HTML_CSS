@@ -5,5 +5,5 @@ I will be taking notes adding tips in this subject so I'll be able to look back 
 ### Checkout my notes so far [here](https://github.com/web4locals/HTML_CSS/blob/main/index.html)
 
 <picture>
-<img src="/assets/VisualStudioKeyboardShortcuts.png" width="auto"/>
+<img src="./assets/VisualStudioKeyboardShortcuts.png" width="auto"/>
 </picture>
