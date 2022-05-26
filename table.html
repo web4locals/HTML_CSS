@@ -41,12 +41,13 @@ td {
 <body>
     <h1>Basic Table Layouts</h1>
     
-    <p>Columns Run Vertically</p>
+    <p>Columns Run Vertically | &#x2195</p>
     <br>
-    <p>Rows Run Horizontally</p>
+    <p>Rows Run Horizontally -- &harr;</p>
     <br><br>
     <h4>TABLE:</h4>
     <h5>Table 1:</h5>
+    <p>Scoping</p>
     <table> <!--TABLE TAG-->
         <tr> <!--TABLE ROW #1-->
             
@@ -65,6 +66,7 @@ td {
 <br><br><br>
        
         <h5>Table 2:</h5>
+            <p>Basic Table</p>
         <table>
             <tr>
               <th scope="col">Heading #1</th>
@@ -82,9 +84,81 @@ td {
                 <td>Row 3 Column 2</td>
                 <td>Row 3 Column 3</td>
         </tr>
-
-
     </table>
+<br><br><br>
 
+        <h5>Table 3:</h5>
+        <p>Spreading out a column in a Row (Horizontally --- &harr; )</p>
+    <table>
+        <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+        </tr>
+        
+        <tr>
+            <td colspan="2">This Data takes up 2 Columns</td><!--uses to columns-->
+            <td>Data 1 Column</td>
+        </tr>
+    </table>
+    <br><br><br>
+
+        <h5>Table 4:</h5>
+        <p>Spreading out a column Vertically | &#x2195</p>
+    
+        <table>
+            <tr> <!-- Row 1 -->
+              <th></th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+            </tr>
+            <tr> <!-- Row 2 -->
+              <th>Morning</th>
+              <td rowspan="2">Work</td>
+              <td rowspan="3">Relax</td>
+            </tr>
+            <tr> <!-- Row 3 -->
+              <th>Afternoon</th>
+            </tr>
+            <tr> <!-- Row 4 -->
+              <th>Evening</th>
+              <td>Dinner</td>
+            </tr>
+        </table>
+
+  <br><br><br>
+
+        <h5>Table 4:</h5>
+        <p>Layout of a table HTML style (Header, Body, Footer)</p>
+    <table>
+        <thead><!--Table Header-->
+            <tr> <!-- Row 1 -->
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+            </tr>
+        </thead>
+        
+        <tbody> <!--Table Body-->
+            <tr> <!-- Row 2 -->
+                <td>This is the Body -1</td>
+                <td>This is the Body -2</td>
+                <td>This is the Body -3</td>
+                <td>This is the Body -4</td>
+            </tr>
+        </tbody>
+
+        <tfoot> <!--This is the Footer-->
+            <tr><!-- Row 3 -->
+                <td>This is the Footer -1</td>
+                <td>This is the Footer -2</td>
+                <td>This is the Footer -3</td>
+                <td>This is the Footer -4</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br><br>
+          
 </body>
 </html>
