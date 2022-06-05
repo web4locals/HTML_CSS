@@ -1,0 +1,42 @@
+body{
+    font-family: monospace;
+    font-size: x-large;
+    background-color: black;
+}
+.container {
+    display: grid;
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    grid-template-areas: "head head"
+                         "nav nav" 
+                         "info services"
+                         "footer footer";
+    grid-template-rows: 300px 120px 800px 120px;
+    grid-template-columns: 1fr 3fr; 
+  }
+   
+  header {
+    grid-area: head;
+    background-color: aqua;
+  } 
+   
+  nav {
+    grid-area: nav;
+    background-color:greenyellow;
+  } 
+   
+  .info {
+    grid-area: info;
+    background-color: red;
+  } 
+   
+  .services {
+    grid-area: services;
+    background-color: blueviolet;
+  }
+   
+  footer {
+    grid-area: footer;
+    background-color: brown;
+  } 
